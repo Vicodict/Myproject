@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.head_contact {
+  background-color: rgba(128, 128, 128, 0.074);
+  padding: 10px;
+  margin: 20px;
+}
+.contact_img {
+  max-width: 100%;
+  margin-left: 20px;
+}
+.form-title {
+  margin: 20px;
+}
+.formContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 700px));
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 20px;
+}
+.formLine {
+  padding: 5px;
+}
+.form-box {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+}
+.send {
+  width: 30%;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contactInfo {
+  padding: 20px;
+}
